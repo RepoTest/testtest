@@ -21,6 +21,7 @@
 		3ABB433C18B50B6100322457 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABB431E18B50B6000322457 /* UIKit.framework */; };
 		3ABB434418B50B6100322457 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB434218B50B6100322457 /* InfoPlist.strings */; };
 		3ABB434618B50B6100322457 /* testGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB434518B50B6100322457 /* testGitTests.m */; };
+		3ABB435118B5107300322457 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB435018B5107300322457 /* Map.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3ABB434118B50B6100322457 /* testGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testGitTests-Info.plist"; sourceTree = "<group>"; };
 		3ABB434318B50B6100322457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ABB434518B50B6100322457 /* testGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitTests.m; sourceTree = "<group>"; };
+		3ABB434F18B5107300322457 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		3ABB435018B5107300322457 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				3ABB432918B50B6000322457 /* AppDelegate.h */,
 				3ABB432A18B50B6100322457 /* AppDelegate.m */,
 				3ABB432C18B50B6100322457 /* Main.storyboard */,
+				3ABB434F18B5107300322457 /* Map.h */,
+				3ABB435018B5107300322457 /* Map.m */,
 				3ABB432F18B50B6100322457 /* ViewController.h */,
 				3ABB433018B50B6100322457 /* ViewController.m */,
 				3ABB433218B50B6100322457 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			files = (
 				3ABB433118B50B6100322457 /* ViewController.m in Sources */,
 				3ABB432B18B50B6100322457 /* AppDelegate.m in Sources */,
+				3ABB435118B5107300322457 /* Map.m in Sources */,
 				3ABB432718B50B6000322457 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
